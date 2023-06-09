@@ -281,4 +281,3 @@ for epoch in range(n_epochs):
 
 np.save('train_losses.npy', np.array(train_losses))
 np.save('valid_losses.npy', np.array(valid_losses))
-
